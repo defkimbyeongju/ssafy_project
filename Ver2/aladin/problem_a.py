@@ -19,6 +19,6 @@ def book_info(book):
 
 # 아래의 코드는 수정하지 않습니다.
 if __name__ == '__main__':
-    book_json = open('관통 Ver2/aladin/data/book.json', encoding='utf-8')
+    book_json = open('aladin/data/book.json', encoding='utf-8')
     book = json.load(book_json)
     pprint(book_info(book))
